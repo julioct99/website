@@ -28,8 +28,8 @@ body {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 3vw;
+  left: 3vw;
 }
 
 .logo {
@@ -38,7 +38,7 @@ body {
 
 .text-box {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -57,7 +57,7 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
-  margin: 100px -35px 20px 0;
+  margin: 0 -35px 20px 0;
 
   animation: moveInRight 1s ease-out;
 }
@@ -166,25 +166,18 @@ body {
 }
 
 @media (max-width: 768px) {
-  .logo-box {
-    top: 30px;
-    left: 30px;
-  }
-
   .logo {
     height: 40px;
   }
 
   .heading-primary-main {
     font-size: 50px;
-    font-weight: 400;
     letter-spacing: 25px;
     margin-right: -25px;
   }
 
   .heading-primary-sub {
     font-size: 20px;
-    font-weight: 300;
     letter-spacing: 5px;
     margin-right: -5px;
   }
@@ -200,11 +193,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  .logo-box {
-    top: 20px;
-    left: 20px;
-  }
-
   .logo {
     height: 30px;
   }
